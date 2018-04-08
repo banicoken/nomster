@@ -1,7 +1,9 @@
-<p>Hey There! <%= @place_owner %></p>
+<p>Hey There! <%= @place_owner.email %></p>
 <p>
   Congrats! <b>A comment has been added on Nomster</b>
+  <br>
   Check it out <%= link_to "here", place_url(@place) %>
+  <br>
   Comment: <%= @comment %>
 </p>
 
