@@ -1,0 +1,214 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2018-03-15 00:34:42.8243'
+    - '2018-03-15 00:34:42.8243'
+
+---
+comments:
+  columns:
+  - id
+  - message
+  - rating
+  - user_id
+  - place_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - testing
+    - '123'
+    - 2
+    - 10
+    - '2018-04-03 09:19:14.687292'
+    - '2018-04-03 09:19:14.687292'
+  - - 2
+    - another comment
+    - 4_stars
+    - 2
+    - 10
+    - '2018-04-03 11:28:20.02182'
+    - '2018-04-03 11:28:20.02182'
+  - - 3
+    - yoyoyo bro
+    - 2_stars
+    - 2
+    - 10
+    - '2018-04-03 11:45:11.785397'
+    - '2018-04-03 11:45:11.785397'
+  - - 4
+    - testing out comment
+    - 5_stars
+    - 3
+    - 11
+    - '2018-04-08 00:45:21.066327'
+    - '2018-04-08 00:45:21.066327'
+  - - 5
+    - adding another comment
+    - ''
+    - 3
+    - 11
+    - '2018-04-08 05:44:07.072534'
+    - '2018-04-08 05:44:07.072534'
+
+---
+photos:
+  columns:
+  - id
+  - caption
+  - place_id
+  - created_at
+  - updated_at
+  - picture
+  records: 
+  - - 1
+    - hello
+    - 10
+    - '2018-04-05 11:03:20.34372'
+    - '2018-04-05 11:03:20.34372'
+    - 
+  - - 2
+    - test
+    - 7
+    - '2018-04-05 11:06:32.511018'
+    - '2018-04-05 11:06:32.511018'
+    - 
+  - - 3
+    - test again
+    - 7
+    - '2018-04-05 11:39:55.189345'
+    - '2018-04-05 11:39:55.189345'
+    - download.jpeg
+
+---
+places:
+  columns:
+  - id
+  - name
+  - description
+  - address
+  - created_at
+  - updated_at
+  - user_id
+  - latitude
+  - longitude
+  records: 
+  - - 7
+    - pokemon stadium
+    - some description
+    - some address
+    - '2018-03-31 05:13:33.21227'
+    - '2018-03-31 05:13:33.21227'
+    - 1
+    - 
+    - 
+  - - 8
+    - another place
+    - some more shitty description
+    - some address again
+    - '2018-03-31 05:13:52.259071'
+    - '2018-03-31 05:13:52.259071'
+    - 1
+    - 
+    - 
+  - - 9
+    - Kingdom Hearts
+    - yoyoyo
+    - i don't know
+    - '2018-03-31 05:24:32.268067'
+    - '2018-03-31 05:24:32.268067'
+    - 2
+    - 
+    - 
+  - - 10
+    - Island Snow - Kailua
+    - OMG
+    - '30 Kailua Rd #115, Kailua, HI 96734'
+    - '2018-03-31 06:17:06.881683'
+    - '2018-03-31 06:17:06.881683'
+    - 2
+    - 21.3979529
+    - -157.7298949
+  - - 11
+    - USE THIS PLACE
+    - cool
+    - 1088 Marine Corps Dr, Dededo, 98929, Guam
+    - '2018-04-08 00:44:53.155422'
+    - '2018-04-08 00:44:53.155422'
+    - 3
+    - 13.5203687
+    - 144.8181845
+  - - 12
+    - I HOPE THIS WILL BE HERE
+    - i hope this will work
+    - 1088 Marine Corps Dr, Dededo, 98929, Guam
+    - '2018-04-09 05:28:52.626064'
+    - '2018-04-09 05:28:52.626064'
+    - 3
+    - 13.5203687
+    - 144.8181845
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - example1@example.com
+    - "$2a$11$b4OjCxjPwZgh0K22KfJ0Ju0kg/3cE9RhSZtjrPrmXjK47HSIWHc4a"
+    - 
+    - 
+    - 
+    - 5
+    - '2018-04-05 10:24:16.666501'
+    - '2018-03-30 09:07:34.101734'
+    - 10.0.2.2
+    - 10.0.2.2
+    - '2018-03-17 09:58:34.370664'
+    - '2018-04-05 10:24:16.669649'
+  - - 2
+    - example2@example.com
+    - "$2a$11$cYxgHEG8KFNcH0J6/e0XGeIxZ6p8M6SFS2ZZjLHKXO45fQ60n4kyq"
+    - 
+    - 
+    - 
+    - 1
+    - '2018-03-31 05:14:14.818783'
+    - '2018-03-31 05:14:14.818783'
+    - 10.0.2.2
+    - 10.0.2.2
+    - '2018-03-31 05:14:14.812069'
+    - '2018-03-31 05:14:14.820157'
+  - - 3
+    - gasconjenn@gmail.com
+    - "$2a$11$1CfX3jRUx5wM9/4YpLA.QOr5uYKPwn8T1pIO0KShqETnYHFz40GIy"
+    - 
+    - 
+    - 
+    - 2
+    - '2018-04-08 04:35:11.668086'
+    - '2018-04-08 00:44:17.226326'
+    - 10.0.2.2
+    - 10.0.2.2
+    - '2018-04-08 00:44:17.216502'
+    - '2018-04-08 04:35:11.670681'
